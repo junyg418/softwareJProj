@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <style>
-
-    img {
-        background-color:transparent;
+    
+    .background{
+        position: relative;
     }
 
-    .my-button:hover img{
+    img {
+        position: absolute;
+        transition: all 0.2s linear;
+        background-color:transparent;
+    }
+    
+    .inmun img{
+        /* display: none; */
+        left: 356px;
+        top: 52px;
+    }
+    .inmun:hover img{
         transform: scale(1.2);
     }
     </style>
@@ -18,9 +30,9 @@
 <body>
     <div class="background">
         <img src="background.jpg" alt="바탕화면">
-        <button class="">
-            <a href="aaaaa">
-                <img src="aaa.png" alt="">
+        <button class="inmun">
+            <a href="aa">
+                <img src="g10_16.png" alt="">
             </a>
         </button>
     </div>

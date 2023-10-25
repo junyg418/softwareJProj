@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map.css">
+    <link rel="stylesheet" href="gpos.css">
+
     <title>Document</title>
     
-    <style>
-    
-    .background{
-        position: relative;
-    }
-
-    img {
-        position: absolute;
-        transition: all 0.2s linear;
-        background-color:transparent;
-    }
-    
-    .inmun img{
-        /* display: none; */
-        left: 356px;
-        top: 52px;
-    }
-    .inmun:hover img{
-        transform: scale(1.2);
-    }
-    </style>
 </head>
 <body>
-    <div class="background">
-        <img src="background.jpg" alt="바탕화면">
-        <button class="inmun">
+    <div class="gbackground">
+        <img src="./buildings/background.jpg" alt="바탕화면">
+
+
+        <button class="g1_pos">
+            <a href="">
+                <img src="buildings/g1.png" alt="" class="g_img">
+            </a>
+        </button>
+
+        <button class="g2_3_4_6_21_pos">
+            <a href="">
+                <img src="buildings/g2_3_4_6_21.png" alt="" class="g_img">
+            </a>
+        </button>
+
+        <button class="g7_pos">
+            <a href="">
+                <img src="buildings/g7.png" alt="" class="g_img">
+            </a>
+        </button>
+
+        <button class="g10_16_pos">
             <a href="aa">
-                <img src="g10_16.png" alt="">
+                <img src="buildings/g10_16.png" alt="" class="g_img">
             </a>
         </button>
     </div>

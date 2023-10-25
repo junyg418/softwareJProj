@@ -1,0 +1,13 @@
+.gbackground{
+    position: relative;
+}
+
+img.g_img{
+    position: absolute;
+    transition: all 0.2s linear;
+    background-color:transparent;
+}
+
+img.g_img:hover{
+    transform: scale(1.2);
+}

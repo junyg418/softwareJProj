@@ -11,3 +11,9 @@ img.g_img{
 img.g_img:hover{
     transform: scale(1.2);
 }
+
+button.mapbtn{
+    display: block;
+    border: none;
+    background-color: transparent;
+}

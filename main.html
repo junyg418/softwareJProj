@@ -5,26 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="css/gpos.css">
     <link rel="stylesheet" href="css/glist.css">
+    <script src="set_nav.js"></script>
 
     <title>Document</title>
 </head>
 <body>
     <div id="main">
         <nav>
-            <a href="">
-                <img src="images/symbol-ui-mark.png" alt="" style="height: 70px;">
+            <a href="" style="left: 0;">
+                <img src="images/symbol-ui-mark.png" alt="" style="height: 60px;">
             </a>
-
-            <ul>
-                <li><a href="">HOME</a></li>
-                <li></li>
-            </ul>
+            <div class="nlist">
+                <a href="#" class="nHome">HOME</a>
+                <a href="#glist" class="nGlist">건물 리스트</a>
+                <!-- <a href="javascript:;" onclick="document.querySelector('glist').focus()" class="nGlist">건물 리스트</a>                 -->
+                <a href="" class="nMadeby">제작</a>
+            </div>
         </nav>
         <div class="gmap_background">
-            <div class="gbackground">
+            <div class="gbackground" >
                 <img src="./buildings/background.jpg" alt="바탕화면">
         
         
@@ -39,10 +42,28 @@
                         <img src="buildings/g2_3_4_6_21.png" alt="" class="g_img">
                     </a>
                 </button>
-        
+                
+                <button class="g5_pos mapbtn" hidden>
+                    <a href="">
+                        <img src="buildings/g5.png" alt="" class="g_img">
+                    </a>
+                </button>
+
                 <button class="g7_pos mapbtn" hidden>
                     <a href="">
                         <img src="buildings/g7.png" alt="" class="g_img">
+                    </a>
+                </button>
+
+                <button class="g8_12_pos mapbtn" hidden>
+                    <a href="">
+                        <img src="buildings/g8_12.png" alt="" class="g_img">
+                    </a>
+                </button>
+
+                <button class="g9_pos mapbtn" hidden>
+                    <a href="">
+                        <img src="buildings/g9.png" alt="" class="g_img">
                     </a>
                 </button>
         
@@ -51,7 +72,49 @@
                         <img src="buildings/g10_16.png" alt="" class="g_img">
                     </a>
                 </button>
-            </div>
+
+                <button class="g11_pos mapbtn" hidden>
+                    <a href="">
+                        <img src="buildings/g11.png" alt="" class="g_img">
+                    </a>
+                </button>
+
+                <button class="g13_22_pos mapbtn" hidden>
+                    <a href="">
+                        <img src="buildings/g13_22.png" alt="" class="g_img">
+                    </a>
+                </button>
+
+                <button class="g14_pos mapbtn" hidden>
+                    <a href="">
+                        <img src="buildings/g14.png" alt="" class="g_img">
+                    </a>
+                </button>
+                
+                <button class="g15_18_pos mapbtn" hidden>
+                    <a href="">
+                        <img src="buildings/g15_18.png" alt="" class="g_img">
+                    </a>
+                </button>
+
+                <button class="gss_pos mapbtn" hidden>
+                    <a href="">
+                        <img src="buildings/gss.png" alt="" class="g_img">
+                    </a>
+                </button>
+
+                <button class="gss8_pos mapbtn" hidden>
+                    <a href="">
+                        <img src="buildings/gss8.png" alt="" class="g_img">
+                    </a>
+                </button>
+
+                <button class="g_library_pos mapbtn" hidden>
+                    <a href="">
+                        <img src="buildings/g_library.png" alt="" class="g_img">
+                    </a>
+                </button>
+            </div>  
         </div>
 
         <div id="glist">
@@ -60,39 +123,39 @@
                     <td colspan="3" id="glist_h">한림대 건물</td>
                 </tr>
                 <tr>
-                    <td>1. &nbsp&nbsp&nbsp<a href="">공학관</a></td>
-                    <td>2. &nbsp&nbsp<a href="">대학본부-인문1관</a></td>
-                    <td>3. &nbsp&nbsp<a href="">의학관</a></td>
+                    <td>1. &nbsp<a href="">공학관</a></td>
+                    <td>2. &nbsp<a href="">대학본부-인문1관</a></td>
+                    <td>3. &nbsp<a href="">의학관</a></td>
                 </tr>
                 <tr>
-                    <td>4. &nbsp&nbsp<a href="">인문2관</a></td>
-                    <td>5. &nbsp&nbsp<a href="">대학본부별관</a></td>
-                    <td>6. &nbsp&nbsp<a href="">실험동물센터</a></td>
+                    <td>4. &nbsp<a href="">인문2관</a></td>
+                    <td>5. &nbsp<a href="">대학본부별관</a></td>
+                    <td>6. &nbsp<a href="">실험동물센터</a></td>
                 </tr>
                 <tr>
-                    <td>7. &nbsp&nbsp<a href="">자연과학관</a></td>
-                    <td>8. &nbsp&nbsp<a href="">생명과학관</a></td>
-                    <td>9. &nbsp&nbsp<a href="">Campus Life Center( CLC )</a></td>
+                    <td>7. &nbsp<a href="">자연과학관</a></td>
+                    <td>8. &nbsp<a href="">생명과학관</a></td>
+                    <td>9. &nbsp<a href="">Campus Life Center( CLC )</a></td>
                 </tr>
                 <tr>
-                    <td>10. &nbsp<a href="">사회·경영1관</a></td>
-                    <td>11. &nbsp&nbsp<a href="">일송아트홀</a></td>
-                    <td>12. &nbsp<a href="">창업보육센터</a></td>
+                    <td>10. <a href="">사회·경영1관</a></td>
+                    <td>11. <a href="">일송아트홀</a></td>
+                    <td>12. <a href="">창업보육센터</a></td>
                 </tr>
                 <tr>
-                    <td>13. &nbsp<a href="">사회·경영2관</a></td>
-                    <td>14. &nbsp<a href="">국제관</a></td>
-                    <td>15. &nbsp<a href="">국제회의관</a></td>
+                    <td>13. <a href="">사회·경영2관</a></td>
+                    <td>14. <a href="">국제관</a></td>
+                    <td>15. <a href="">국제회의관</a></td>
                 </tr>
                 <tr>
-                    <td>16. &nbsp<a href="">기초교육관</a></td>
-                    <td>17. &nbsp<a href="">일송기념도서관</a></td>
-                    <td>18. &nbsp<a href="">한림레크레이션센터 ( REC )</a></td>
+                    <td>16. <a href="">기초교육관</a></td>
+                    <td>17. <a href="">일송기념도서관</a></td>
+                    <td>18. <a href="">한림레크레이션센터 ( REC )</a></td>
                 </tr>
                 <tr>
-                    <td>19. &nbsp<a href="">학군단</a></td>
+                    <td>19. <a href="">학군단</a></td>
                     <td>20. <a href="">실내테니스장</a></td>
-                    <td>21. &nbsp<a href="">의료·바이오융합연구원</a></td>
+                    <td>21. <a href="">의료·바이오융합연구원</a></td>
                 </tr>
                 <tr>
                     <td>22. <a href="">산학협력관</a></td>
@@ -110,7 +173,7 @@
                     <td>30. <a href="">학생생활관 7관</a></td>
                 </tr>
                 <tr>
-                    <td>31. &nbsp<a href="">학생생활관 8관</a></td>
+                    <td>31. <a href="">학생생활관 8관</a></td>
                     <td>32. <a href="">체육 기자재실</a></td>
                     <td>33. <a href="">H Stadium (복합 운동장)</a></td>
                 </tr>

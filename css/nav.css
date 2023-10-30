@@ -1,5 +1,39 @@
 nav{
-    position: relative;
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.nlist{
+    margin-top: 16px;
+    margin-right: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.nlist a{
+    position: absolute;
+    padding-right: 30px;
+    font-size: x-large;
+    color: rgb(61, 54, 36);
+    font-family: "deliveryPeo";
+    text-decoration: none;
+}
+
+.nlist a:hover{
+    text-decoration: underline;
+}
+
+.nHome{
+    right: 230px;
+}
+
+.nGlist{
+    text-indent: -4em;
+    right: 88px;
+}
+
+.nMadeby{
+    text-indent: -1em;
+    right: 20px;
 }

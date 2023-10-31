@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="css/gpos.css">
     <link rel="stylesheet" href="css/glist.css">
-    <script src="set_nav.js"></script>
-
+    
     <title>Document</title>
 </head>
 <body>
@@ -22,100 +21,83 @@
             <div class="nlist">
                 <a href="#" class="nHome">HOME</a>
                 <a href="#glist" class="nGlist">건물 리스트</a>
-                <!-- <a href="javascript:;" onclick="document.querySelector('glist').focus()" class="nGlist">건물 리스트</a>                 -->
                 <a href="" class="nMadeby">제작</a>
             </div>
         </nav>
         <div class="gmap_background">
             <div class="gbackground" >
-                <img src="./buildings/background.jpg" alt="바탕화면">
-        
-        
+                <img src="./buildings/background_re.png" alt="바탕화면">
+                <div id="ginfo" style="text-align: center;">
+                    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                    <h1 id="gghead"></h1>
+                    <div id="gginfo">
+                    </div>
+                </div>
+                
                 <button class="g1_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/g1.png" alt="" class="g_img">
-                    </a>
                 </button>
-        
+                
                 <button class="g2_3_4_6_21_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/g2_3_4_6_21.png" alt="" class="g_img">
-                    </a>
                 </button>
                 
                 <button class="g5_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/g5.png" alt="" class="g_img">
-                    </a>
                 </button>
 
                 <button class="g7_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/g7.png" alt="" class="g_img">
-                    </a>
                 </button>
-
+                
                 <button class="g8_12_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/g8_12.png" alt="" class="g_img">
-                    </a>
                 </button>
-
+                
                 <button class="g9_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/g9.png" alt="" class="g_img">
-                    </a>
                 </button>
-        
+                
                 <button class="g10_16_pos mapbtn" hidden>
-                    <a href="aa">
                         <img src="buildings/g10_16.png" alt="" class="g_img">
-                    </a>
                 </button>
 
                 <button class="g11_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/g11.png" alt="" class="g_img">
-                    </a>
                 </button>
-
+                
                 <button class="g13_22_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/g13_22.png" alt="" class="g_img">
-                    </a>
                 </button>
-
+                
                 <button class="g14_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/g14.png" alt="" class="g_img">
-                    </a>
                 </button>
                 
                 <button class="g15_18_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/g15_18.png" alt="" class="g_img">
-                    </a>
                 </button>
 
+                <button class="g23_pos mapbtn" hidden>
+                        <img src="buildings/g23.png" alt="" class="g_img">
+                </button>
+                
                 <button class="gss_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/gss.png" alt="" class="g_img">
-                    </a>
                 </button>
 
                 <button class="gss8_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/gss8.png" alt="" class="g_img">
-                    </a>
                 </button>
-
+                
                 <button class="g_library_pos mapbtn" hidden>
-                    <a href="">
                         <img src="buildings/g_library.png" alt="" class="g_img">
-                    </a>
                 </button>
-            </div>  
+                
+
+            </div>
         </div>
+        
 
         <div id="glist">
             <table>
@@ -187,5 +169,7 @@
             </table>
         </div>
     </div>
+    <script src="set_nav.js"></script>
+    <script src="g_info.js"></script>
 </body>
 </html>

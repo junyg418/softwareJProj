@@ -3,12 +3,17 @@
     src: url("/fonts/NotoSansCJKkr-Medium.otf");
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #main{
     display: flex;
     flex-direction: column;
 }
 
 .gmap_background{
+    float: left;
     background-color: #D5DFE8;
 }
 
@@ -16,4 +21,14 @@
     margin-top: 90px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#ginfo{
+    float: right;
+    margin-left: auto;
+    transform: translateX(-5%);
+    width: calc(100%-940px);
+    height: 660px;
+    background-color: red;
+    justify-content: center;
 }

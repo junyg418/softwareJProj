@@ -2,6 +2,10 @@
     position: relative;
 }
 
+.gbackground>img{
+    width: 940px;
+}
+
 img.g_img{
     position: absolute;
     transition: all 0.2s linear;
